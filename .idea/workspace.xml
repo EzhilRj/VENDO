@@ -4,27 +4,175 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ca0d53-c115-4a1c-bd2d-a5d413670620" name="Changes" comment="" />
+    <list default="true" id="23ca0d53-c115-4a1c-bd2d-a5d413670620" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Log4J.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestRunner/Vendo 1.0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extent-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Pageobjects/Login_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Pageobjects/Signup_Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Testcases/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Testcases/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Testcases/SignupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Utilities/DBConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Utilities/ListenersConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Utilities/ReadPropConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Utilities/UploadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vendo/Utilities/XLConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Configuration/Vendo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Datas/TestDatas.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Logs/Vendo.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Reports/VENDO1.0-2022.12.24.23.30.27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.vendo.Testcases.Login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.vendo.Testcases.SignupTest.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/vendo/Testcases/LoginTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/vendo/Testcases/SignupTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2Hzn1mDQ274j7S9aym01PZ97xhw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Automation Workspace/CucumberFramework&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Console Colors&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Automation Workspace\VENDO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.E:/Automation Workspace/VENDO/TestRunner/Vendo 1.0.xml">
+    <configuration name="E:/Automation Workspace/VENDO/TestRunner/Vendo 1.0.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VENDO" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestRunner/Vendo 1.0.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.LoginSheetSetter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VENDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vendo.Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vendo.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.vendo.Testcases.LoginTest" />
+      <option name="METHOD_NAME" value="LoginSheetSetter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.TC_001_Verify_WithValidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VENDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vendo.Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vendo.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.vendo.Testcases.LoginTest" />
+      <option name="METHOD_NAME" value="TC_001_Verify_WithValidCredentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignupTest.TC_001_VerifyRegistrationPageTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VENDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vendo.Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vendo.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.vendo.Testcases.SignupTest" />
+      <option name="METHOD_NAME" value="TC_001_VerifyRegistrationPageTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignupTest.TC_002_Verify_SpecialCharacters_allowed_in_Agencyname" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="VENDO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vendo.Testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vendo.Testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.vendo.Testcases.SignupTest" />
+      <option name="METHOD_NAME" value="TC_002_Verify_SpecialCharacters_allowed_in_Agencyname" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.E:/Automation Workspace/VENDO/TestRunner/Vendo 1.0.xml" />
+        <item itemvalue="TestNG.LoginTest.TC_001_Verify_WithValidCredentials" />
+        <item itemvalue="TestNG.SignupTest.TC_001_VerifyRegistrationPageTitle" />
+        <item itemvalue="TestNG.SignupTest.TC_002_Verify_SpecialCharacters_allowed_in_Agencyname" />
+        <item itemvalue="TestNG.LoginTest.LoginSheetSetter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,5 +183,43 @@
       <updated>1669296567284</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$USER_HOME$/.jdks/corretto-18.0.2/lib/src.zip!/java.logging/java/util/logging/Logger.java</url>
+          <line>982</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.logging.LogRecord" memberName="sourceMethodName" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VENDO_1_0$LoginPage_TC_010_Verify_with_NullValueUsername.ic" NAME="LoginPage.TC_010_Verify_with_NullValueUsername Coverage Results" MODIFIED="1669893606853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.vendo.Testcases.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/VENDO$SignupTest.ic" NAME="SignupTest Coverage Results" MODIFIED="1672030608015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.vendo.Testcases.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -1,13 +1,14 @@
-package Utils;
+package com.vendo.Utilities;
 
-import TestCases.Setup;
+import com.vendo.Testcases.BaseClass;
+import com.vendo.Testcases.BaseClass;
 import org.openqa.selenium.By;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
-public class UploadConfig extends Setup {
+public class UploadConfig extends BaseClass {
 
     public static void uploadfile(String Path) throws AWTException, InterruptedException {
 

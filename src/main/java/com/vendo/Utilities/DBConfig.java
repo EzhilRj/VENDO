@@ -1,6 +1,4 @@
-package Utils;
-
-import org.testng.annotations.Test;
+package com.vendo.Utilities;
 
 import java.sql.*;
 

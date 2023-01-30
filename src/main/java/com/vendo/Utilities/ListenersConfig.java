@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ReportConfig extends TestListenerAdapter {
+public class ListenersConfig extends TestListenerAdapter {
 
     public ExtentHtmlReporter htmlReporter;
     public ExtentReports extent;
@@ -25,12 +25,11 @@ public class ReportConfig extends TestListenerAdapter {
     public void onStart(ITestContext testContext) {
 
         String timestamp =  new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-        String repname = "VENDO 1.0"+timestamp+".html";
+        String repname = "VENDO1.0-"+timestamp+".html";
         htmlReporter = new ExtentHtmlReporter("./src/main/resources/Reports/"+repname);// specify locationof the report
         htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
 
         extent = new ExtentReports();
-
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Host name", "localhost");
         extent.setSystemInfo("Environemnt", "QA");
@@ -66,6 +65,7 @@ public class ReportConfig extends TestListenerAdapter {
     }
 
     public void onFinish(ITestContext testContext) {
+
         extent.flush();
     }
 

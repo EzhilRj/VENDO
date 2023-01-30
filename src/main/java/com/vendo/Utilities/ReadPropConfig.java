@@ -4,11 +4,11 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-public class ReadConfig {
+public class ReadPropConfig {
 
     Properties pro;
 
-    public ReadConfig() {
+    public ReadPropConfig() {
 
         File src = new File("./src/main/resources/Configuration/Vendo.properties");
 

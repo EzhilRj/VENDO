@@ -6,7 +6,7 @@
 	<appender name="fileAppender"
 		class="org.apache.log4j.FileAppender">
 		<param name="Threshold" value="INFO" />
-		<param name="File" value="./src/main/resources/Logs/BandhuDocsWeb.log" />
+		<param name="File" value="./src/main/resources/Logs/Vendo.log" />
 
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern"

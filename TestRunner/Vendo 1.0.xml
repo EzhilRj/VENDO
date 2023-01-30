@@ -1,16 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="REDIPAE" verbose="3">
-    <listeners>
-        <listener class-name="Utils.ListenersConfig"/>
-    </listeners>
-    <test name=" LoginPage">
-        <classes>
-            <class name="TestCases.LoginPage">
-                <methods>
-                    <include name="TC_001_VerifyPageTitle"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+<suite name="Functional" verbose="3">
+	<listeners>
+		<listener class-name="com.vendo.Utilities.ListenersConfig" />
+	</listeners>
+	<test name=" LoginTest">
+		<classes>
+			<class name="com.vendo.Testcases.LoginTest">
+				<methods>
+					<include name = "LoginSheetSetter"/>
+					<include name = "TC_000_VerifyPageTitle"/>
+					<include name = "TC_001_Verify_WithValidCredentials"/>
+					<include name = "TC_002_Verify_withCorrectUsername_WrongPassword"/>
+					<include name = "TC_003_Verify_with_WrongUsername_CorrectPassword"/>
+					<include name = "TC_004_Verify_with_InvalidCredentials"/>
+					<include name = "TC_005_Verify_with_SpecialChar"/>
+					<include name = "TC_006_Verify_with_NumericValues"/>
+					<include name = "TC_007_Verify_with_Specialchar_and_Numeric"/>
+					<include name = "TC_008_Verify_Page_Has_Refreshed"/>
+					<include name = "TC_009_Verify_withNullValue"/>
+					<include name = "TC_010_Verify_with_BlankUsername"/>
+					<include name = "TC_011_Verify_with_BlankPassword"/>
+					<include name = "TC_012_Verify_MaxLength_Username"/>
+					<include name = " TC_013_Verify_MaxLength_Password"/>
+					<include name = "TC_014_Verify_Specialchar_is_allowed_Passoword"/>
+					<include name = "TC_015_Verify_Specialchar_in_Password"/>
+					<include name = "TC_016_Verify_Specialchar_in_Username"/>
+					<include name = "TC_017_Verify_Numerics_in_Password"/>
+					<include name = "TC_018_Verify_Numerics_in_Username"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="SignupTest">
+		<classes>
+			<class name="com.vendo.Testcases.SignupTest">
+				<methods>
+					<include name = "SignupSheetSetter"/>
+					<include name = "TC_001_VerifyRegistrationPageTitle"/>
+					<include name = "TC_002_Verify_SpecialCharacters_allowed_in_Agencyname"/>
+					<include name = "TC_003_Verify_Numbers_allowed_in_Agencyname"/>
+					<include name = "TC_004_Verify_ErrorMessage_is_showing_In_AgencyName"/>
+					<include name = "TC_005_Verify_ExistingAgencyName_is_Allowed"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>
+

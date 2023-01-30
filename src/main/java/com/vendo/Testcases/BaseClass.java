@@ -13,9 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.awt.*;
 import java.io.File;
@@ -24,27 +22,27 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-public class Setup {
+import static com.vendo.Utilities.XLConfig.setExcelFile;
+
+public class BaseClass {
 
     static ReadPropConfig readconfig = new ReadPropConfig();
-    public String browser = readconfig.GetBrowser();
-    public String Baseurl = readconfig.getapplicationURL();
+    public static String browser = readconfig.GetBrowser();
+    public static String Baseurl = readconfig.getapplicationURL();
     public static Logger log = Logger.getLogger("VENDO 1.0");
 
     public static WebDriver driver;
     long StartTime;
     long endTime;
 
-    static String filepath = "./src/main/resources/Datas/TestDatas.xlsx";
+    public static String filepath = "./src/main/resources/Datas/TestDatas.xlsx";
     public static XLConfig xlcon = new XLConfig();
     public static String excelfilepath = filepath;
-
 
     @BeforeSuite
     public void StartBrowser() throws InterruptedException, AWTException, IOException {
 
         DOMConfigurator.configure("Log4J.xml");
-        xlcon.setExcelFile(filepath,"LoginPage");
 
         if (browser.equalsIgnoreCase("Chrome")) {
 
@@ -66,7 +64,7 @@ public class Setup {
 
         }
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(15, TimeUnit.SECONDS);
         driver.get(Baseurl);
         log.info(Baseurl);
         driver.manage().window().maximize();
@@ -82,7 +80,6 @@ public class Setup {
         long Totaltime = endTime - StartTime;
         System.out.println("TIMETAKEN:" + Totaltime);
         driver.quit();
-
 
     }
 
@@ -122,6 +119,8 @@ public class Setup {
 
     }
 
+    public void sheetsetter(String sheetname) throws IOException {
 
-
+        setExcelFile(filepath,sheetname);
+    }
 }
