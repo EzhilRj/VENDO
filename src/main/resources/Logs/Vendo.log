@@ -1,0 +1,118 @@
+2022-12-19 19:12:53  [VENDO 1.0] (main:) Chrome is Opened
+2022-12-19 19:13:40  [VENDO 1.0] (main:) http://testvendo.ppms.co.in/#/page/signin
+2022-12-19 19:13:40  [VENDO 1.0] (main:) TC_000_VerifyPageTitle TestCase Passed
+2022-12-19 19:13:40  [VENDO 1.0] (main:) Vendoadmin
+2022-12-19 19:13:40  [VENDO 1.0] (main:) Vendo@2022
+2022-12-19 19:13:40  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:13:42  [VENDO 1.0] (main:) Profile is Clicked
+2022-12-19 19:13:43  [VENDO 1.0] (main:) Logout Button  is Clicked
+2022-12-19 19:13:43  [VENDO 1.0] (main:) TC_001_Verify_WithValidCredentials TestCase Passed
+2022-12-19 19:13:43  [VENDO 1.0] (main:) Vendoadmin
+2022-12-19 19:13:43  [VENDO 1.0] (main:) test123
+2022-12-19 19:13:43  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:13:43  [VENDO 1.0] (main:) TC_002_Verify_withCorrectUsername_WrongPassword TestCase Passed
+2022-12-19 19:13:44  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:13:44  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:13:44  [VENDO 1.0] (main:) Vendoadmin111
+2022-12-19 19:13:45  [VENDO 1.0] (main:) Test@123
+2022-12-19 19:13:45  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:13:46  [VENDO 1.0] (main:) TC_003_Verify_with_WrongUsername_CorrectPasswordTestCase Passed
+2022-12-19 19:13:46  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:13:46  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:13:46  [VENDO 1.0] (main:) Vendo
+2022-12-19 19:13:46  [VENDO 1.0] (main:) Vendo
+2022-12-19 19:13:46  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:13:47  [VENDO 1.0] (main:) TC_004_Verify_with_InvalidCredentialsTestCase Passed
+2022-12-19 19:13:48  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:13:48  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:13:48  [VENDO 1.0] (main:) !@#$%^&*
+2022-12-19 19:13:48  [VENDO 1.0] (main:) !@#$%^&*
+2022-12-19 19:13:48  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:13:49  [VENDO 1.0] (main:) TC_005_Verify_with_SpecialCharTestCase Passed
+2022-12-19 19:13:49  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:13:49  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:13:49  [VENDO 1.0] (main:) -1048492783
+2022-12-19 19:13:49  [VENDO 1.0] (main:) 823585160
+2022-12-19 19:13:50  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:13:51  [VENDO 1.0] (main:) TC_006_Verify_with_NumericValuesTestCase Passed
+2022-12-19 19:13:51  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:13:51  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:13:51  [VENDO 1.0] (main:) $!+}^}(#%^-1760164153
+2022-12-19 19:13:51  [VENDO 1.0] (main:) @&*}%)((!(290546714
+2022-12-19 19:13:51  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:13:52  [VENDO 1.0] (main:) TC_007_Verify_with_Specialchar_and_NumericTestCase Passed
+2022-12-19 19:13:52  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:13:53  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:13:53  [VENDO 1.0] (main:) Vendoadmin
+2022-12-19 19:13:53  [VENDO 1.0] (main:) Vendo@2022
+2022-12-19 19:13:53  [VENDO 1.0] (main:) TC_008_Verify_RefreshingPage TestCase Passed
+2022-12-19 19:13:53  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:14:03  [VENDO 1.0] (main:) no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Username is required.']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-L3M9CL3', ip: '192.168.29.222', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc2e8a4fb03415394c198eb88242e85a, findElement {using=xpath, value=//*[text()='Username is required.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\EzhilRj\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53327}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53327/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc2e8a4fb03415394c198eb88242e85a
+2022-12-19 19:14:04  [VENDO 1.0] (main:) TC_009_Verify_withNullValueTestCase Failed
+2022-12-19 19:14:04  [VENDO 1.0] (main:) 
+2022-12-19 19:14:04  [VENDO 1.0] (main:) Vendo@2022
+2022-12-19 19:14:04  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:14:14  [VENDO 1.0] (main:) no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Username is required.']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-L3M9CL3', ip: '192.168.29.222', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc2e8a4fb03415394c198eb88242e85a, findElement {using=xpath, value=//*[text()='Username is required.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\EzhilRj\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53327}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53327/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc2e8a4fb03415394c198eb88242e85a
+2022-12-19 19:14:15  [VENDO 1.0] (main:) TC_010_Verify_with_NullValueUsername TestCase Failed
+2022-12-19 19:14:15  [VENDO 1.0] (main:) Vendoadmin
+2022-12-19 19:14:15  [VENDO 1.0] (main:) 
+2022-12-19 19:14:15  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:14:25  [VENDO 1.0] (main:) no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Password is required.']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.3', revision: '7b1ebf28ef'
+System info: host: 'DESKTOP-L3M9CL3', ip: '192.168.29.222', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc2e8a4fb03415394c198eb88242e85a, findElement {using=xpath, value=//*[text()='Password is required.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\EzhilRj\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53327}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53327/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc2e8a4fb03415394c198eb88242e85a
+2022-12-19 19:14:25  [VENDO 1.0] (main:) TC_011_Verify_with_NullValuePassword TestCase Failed
+2022-12-19 19:14:26  [VENDO 1.0] (main:) VendoadminVendoadminVendoadminVendoadmin
+2022-12-19 19:14:26  [VENDO 1.0] (main:) 
+2022-12-19 19:14:26  [VENDO 1.0] (main:) TC_012_Verify_MaxLength_Username TestCase Failed
+2022-12-19 19:14:26  [VENDO 1.0] (main:) 
+2022-12-19 19:14:26  [VENDO 1.0] (main:) VendoadminVendoadminVendoadminVendoadmin
+2022-12-19 19:14:26  [VENDO 1.0] (main:)  TC_013_Verify_MaxLength_Password TestCase Failed
+2022-12-19 19:14:27  [VENDO 1.0] (main:) 
+2022-12-19 19:14:27  [VENDO 1.0] (main:) +}*!%+@@}+
+2022-12-19 19:14:27  [VENDO 1.0] (main:) TC_014_Verify_Enter_Specialchar_in_Passoword TestCase Passed
+2022-12-19 19:14:27  [VENDO 1.0] (main:) Vendoadmin
+2022-12-19 19:14:27  [VENDO 1.0] (main:) ${%#*%+_**
+2022-12-19 19:14:27  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:14:28  [VENDO 1.0] (main:) TC_015_Verify_Specialchar_in_Password TestCase Passed
+2022-12-19 19:14:29  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:14:29  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:14:29  [VENDO 1.0] (main:) *++&%)*@}&
+2022-12-19 19:14:29  [VENDO 1.0] (main:) Vendo@2022
+2022-12-19 19:14:30  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:14:31  [VENDO 1.0] (main:) TC_016_Verify_Specialchar_in_UsernameTestCase Passed
+2022-12-19 19:14:31  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:14:31  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:14:31  [VENDO 1.0] (main:) Vendoadmin
+2022-12-19 19:14:31  [VENDO 1.0] (main:) 1102030920
+2022-12-19 19:14:31  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:14:32  [VENDO 1.0] (main:) TC_017_Verify_Numerics_in_Password TestCase Passed
+2022-12-19 19:14:33  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:14:34  [VENDO 1.0] (main:) Username and Password Fields is Clear
+2022-12-19 19:14:34  [VENDO 1.0] (main:) -311999939
+2022-12-19 19:14:34  [VENDO 1.0] (main:) Vendo@2022
+2022-12-19 19:14:34  [VENDO 1.0] (main:) Login Button is Clicked
+2022-12-19 19:14:35  [VENDO 1.0] (main:) TC_018_Verify_Numerics_in_UsernameTestCase Passed
+2022-12-19 19:14:35  [VENDO 1.0] (main:) Got it Button is Clicked
+2022-12-19 19:14:35  [VENDO 1.0] (main:) Username and Password Fields is Clear

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional]" guice-stage="DEVELOPMENT" verbose="3">
+  <listeners>
+    <listener class-name="com.vendo.Utilities.ListenersConfig"/>
+  </listeners>
+  <test thread-count="5" name=" LoginPage(failed)" verbose="3">
+    <classes>
+      <class name="com.vendo.Testcases.Login">
+        <methods>
+          <include name="TC_013_Verify_MaxLength_Password"/>
+          <include name="StartBrowser"/>
+          <include name="TC_009_Verify_withNullValue"/>
+          <include name="TC_001_Verify_WithValidCredentials"/>
+          <include name="TC_010_Verify_with_BlankUsername"/>
+          <include name="TC_011_Verify_with_BlankPassword"/>
+          <include name="captureScreen"/>
+          <include name="TC_012_Verify_MaxLength_Username"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.vendo.Testcases.Login -->
+    </classes>
+  </test> <!--  LoginPage(failed) -->
+</suite> <!-- Failed suite [Functional] -->
